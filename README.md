@@ -1,5 +1,5 @@
 <h1 align="center">
-   LetgoClone
+  Getir-CloneApp
 </h1>
 <p align="center">
   The open source Getir Clone which is created for educational purposes. Select the category you want to buy, find the product, add to cart and buy.  <br />Built with React Native, Expo and AWS Amplify..
