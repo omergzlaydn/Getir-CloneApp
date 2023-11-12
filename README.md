@@ -1,79 +1,90 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1 align="center">
+   LetgoClone
+</h1>
+<p align="center">
+  The open source Getir Clone which is created for educational purposes. Select the category you want to buy, find the product, add to cart and buy.  <br />Built with React Native, Expo and AWS Amplify..
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66990093/178144331-ad50af65-dba8-4adc-85e5-05623a68350f.png" alt="App" />
+</p>
 
-# Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<h2>
+📲 About
+</h2>
 
-## Step 1: Start the Metro Server
+In this tutorial, you will learn React Native with Expo and AWS Amplify from scratch by building a cross-platform (ios and android), full-stack Getir clone. This project is a great way to get your foot in the door with hybrid, cross-platform mobile development with React Native and AWS Amplify with a real project example.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+This is a beginner-friendly tutorial, and all the steps and concepts will be explained in detail.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+<h2>
+<br />
+⚒️ Core Tech Stack
+</h2>
 
-```bash
-# using npm
-npm start
+- 🔼 &nbsp; [Expo](https://expo.io/ 'Expo')
+- ⭐️ &nbsp; [React Native](https://reactnative.dev/ 'React Native')
+- 🔗 &nbsp; [React Navigation](https://reactnavigation.org/ 'React Navigation')
+- 🎭 &nbsp; [Styled Components](https://styled-components.com/ 'Styled Components')
+- 🔥 &nbsp; [AWS Amplify (AWS AppSync GraphQL API, Amazon Cognito, Datastore, Amazon S3, Real-time Data Subscriptions and more)](https://aws.amazon.com/amplify/)
+- 🔥 &nbsp; [React Native Testing Library and Jest](https://callstack.github.io/react-native-testing-library/)
+- ⭐️ &nbsp; [State Management with Redux](https://redux.js.org/)
+- 🔗 &nbsp; [EAS Build](https://docs.expo.dev/build/introduction/)
+- 🔼 &nbsp; [Hermes Engine](https://hermesengine.dev/)
+- 🔥 &nbsp; [Stripe](https://stripe.com/)
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
+- ➕ &nbsp; Bonus Features
 
-```bash
-# using npm
-npm run android
+<h2>
+<br />
+💫 Main Features
+</h2>
 
-# OR using Yarn
-yarn android
-```
+Mobil
+- ✅ How to start a React Native project from scratch using Expo
+- ✅ Render beautiful UI interfaces
+- ✅ Work with custom components (View, Text, Image, Flat list, etc.)
+- ✅ Built your own custom components and reuse them across the app
+- ✅ Install and work with 3rd party libraries
+- ✅ Navigate between screens using React Navigation
+- ✅ Writing unit tests with Jest and RNTL
+- ✅ Managing state management with Redux
+- ✅ Configuring the Hermes Engine
+- ✅ Implementing the Deep-linking
+- ✅ Building app binaries with EAS Build
+- ✅ Using Stripe's software to accept payments 
 
-### For iOS
+AWS Amplify
 
-```bash
-# using npm
-npm run ios
+- ✅ Setup an Amplify Project in React Native
+- ✅ Add Authentication
+- ✅ Create a Graphql API to manage products, users, messages etc.
+- ✅ Offline data caching using Datastore
+- ✅ Setup storage layer for photos
+- ✅ Real-time Data Subscriptions
+- ✅ + Bonus features at the end
 
-# OR using Yarn
-yarn ios
-```
+## Install (dev)
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+To install the project, navigate to the directory and run:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+- `yarn global add expo-cli`
+- `yarn install`
 
-## Step 3: Modifying your App
+## Run
 
-Now that you have successfully run the app, let's modify it.
+To run the project, run the following commands:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- `yarn android`
+- `yarn ios`
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
+<h2>
+<br />
+🚨 Disclaimer
+</h2>
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This build is for educational purposes only!! All views, opinions, technology choices expressed in this video are my own and do not represent the views, opinions, technology choices of any entity whatsoever with which I have been, am now, or will be affiliated
